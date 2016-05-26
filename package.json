@@ -1,0 +1,30 @@
+{
+  "name": "zip-files",
+  "version": "0.1.0",
+  "description": "zip files",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luobotang/zip-files.git"
+  },
+  "keywords": [
+    "zip",
+    "file"
+  ],
+  "author": "luobotang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luobotang/zip-files/issues"
+  },
+  "homepage": "https://github.com/luobotang/zip-files#readme",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "yazl": "^2.3.1"
+  }
+}

@@ -1,0 +1,25 @@
+files:
+    resource_global:
+        files:
+            - "global/**"
+        root: global/
+        prefix: resource/global/
+    resource:
+        files:
+            - "app/**"
+            - "!app/**/*.html"
+        root: app/
+        prefix: resource/
+    html:
+        files:
+            - "app/**/*.html"
+        root: app/
+        prefix: skins/
+
+zips:
+    html:
+        outFile: tmp/html.zip
+        files: [html]
+    resource:
+        outFile: tmp/resource.zip
+        files: [resource_global, resource]

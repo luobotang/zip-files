@@ -15,11 +15,10 @@ files:
             - "app/**/*.html"
         root: app/
         prefix: skins/
-
 zips:
     html:
-        outFile: tmp/html.zip
+        outFile: "../tmp/html.zip"
         files: [html]
     resource:
-        outFile: tmp/resource.zip
+        outFile: "../tmp/resource.zip"
         files: [resource_global, resource]
